@@ -65,8 +65,8 @@ html
          var d=document, g=d.createElement('script'), s=d.getElementsByTagName('script')[0];
         g.type='text/javascript'; g.async=true; g.defer=true; g.src=u+'piwik.js'; s.parentNode.insertBefore(g,s);
       })();
-    noscript
-      img(src='//piwik.hackr.org/piwik.php?idsite=4&rec=1')
+    noscript.
+        <img src="//piwik.hackr.org/piwik.php?idsite=4&rec=1" style="border:0;" alt="" />
   body
     - function format_unixtime(unixtime) {
       - var a = new Date(unixtime*1000);  
